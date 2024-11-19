@@ -1,0 +1,21 @@
+.tabs{
+	display:flex;
+	list-style-type: none;
+	background-color: hotpink;
+	padding: 0;
+	margin: 0;
+}
+
+.tabs .tab{
+	margin: 0.2em;
+	border: 3px solid rgb(126, 28, 77);
+	padding: 0.5em 1.2em;
+	cursor:pointer;
+}
+
+.tab-content-container{
+	border: 1px solid black;
+}
+.tab-content{
+	padding: 0.5em;
+}
