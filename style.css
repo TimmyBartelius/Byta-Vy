@@ -11,11 +11,24 @@
 	border: 3px solid rgb(126, 28, 77);
 	padding: 0.5em 1.2em;
 	cursor:pointer;
+	/* Dessa två är smaksak för "knapparna", eller flikarna med hur de växer och krymper för rutans skull */
+	/* flex-grow:1;
+	flex-basis:0; */
 }
+/* Visar hur tydlig fliken man befinner sig på är */
+.tabs .tab.active{
+	background-color: rgb(230, 244, 97);
+	font-weight: bold;
+	font-size: large;
 
+}
 .tab-content-container{
 	border: 1px solid black;
+	min-height: 8em;
 }
 .tab-content{
 	padding: 0.5em;
+}
+.tab-content.hidden{
+	display: none;
 }
